@@ -10,4 +10,8 @@ variable "clusterName" {
   default     = "vproapp"
 }
 
+variable "AwsProfile" {
+  default = "IAM_DevOps"
+}
+
 ####
