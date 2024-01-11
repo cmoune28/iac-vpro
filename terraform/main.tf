@@ -5,7 +5,7 @@ provider "kubernetes" {
 
 provider "aws" {
   region = var.region
-  shared_credentials_files = [ "/Users/ced_m/.aws/credentials" ]
+  # shared_credentials_files = [ "/Users/ced_m/.aws/credentials" ]
   # profile = var.AwsProfile
 }
 
